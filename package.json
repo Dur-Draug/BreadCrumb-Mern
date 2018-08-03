@@ -1,0 +1,33 @@
+{
+  "name": "breadcrumb-mern",
+  "version": "1.0.0",
+  "description": "Fitness app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dur-Draug/BreadCrumb-Mern.git"
+  },
+  "author": "Brett Patheal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dur-Draug/BreadCrumb-Mern/issues"
+  },
+  "homepage": "https://github.com/Dur-Draug/BreadCrumb-Mern#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.6",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
